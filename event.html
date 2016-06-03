@@ -11,13 +11,15 @@
 //  __tigerCv('799a6aa4', {rs_lp_param["price"] = "1000";})
 //  __tigerCv('799a6aa4',price=1000, {})
 //  __tigerCv('799a6aa4', {network.option["price"] = "1000";})
-campaign.option["price"] = "1000";
- network.option["price"] = "1000";
+//campaign.option["price"] = "1000";
+ document.myForm.network.options["price"].value = "1999";
+// network.option["price"] = "1000";
   __tigerCv('799a6aa4', {})
 </script>
 <!--Tiger CV Tag-->
  <body>
   テストイベント
+  <form name="myForm"></form>
  </body>
 
 </html>
